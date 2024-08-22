@@ -1,0 +1,19 @@
+{
+	"name" : "Cops Damage Interval",
+	"description" : "",
+	"author" : "James",
+	"contact" : "#zhamies",
+	"version" : "0",
+	"priority" : 0,
+	"hooks" : [
+        {"hook_id":"lib/units/enemies/cop/copdamage",	"script_path":"CopDamage.lua"}
+	],
+	"updates" : [
+		{
+			"identifier" : "cops_damage_interval",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/Jamemes/Cops-Damage-Interval/meta/meta.json"
+			}
+		}
+	]		
+}
